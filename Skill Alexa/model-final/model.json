@@ -1,0 +1,47 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "controle de santé",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "merci",
+                        "arrete",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "reponseBien",
+                    "slots": [],
+                    "samples": [
+                        "je suis en pleine forme",
+                        "Bien"
+                    ]
+                },
+                {
+                    "name": "reponseMal",
+                    "slots": [],
+                    "samples": [
+                        "Je suis malade",
+                        "Je me sens mal",
+                        "je pense être malade"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
